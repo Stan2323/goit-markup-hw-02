@@ -1,15 +1,185 @@
+/* Variables */
+:root {
+    --main-color: #212121;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--main);
+}
 /* шапка */
 .logo {
-Font family: Raleway
-Font style: Bold
-Font size: 26px
-Line height: 31px
-Line height: 1.19px
-Align: Left
-Vertical align: Top
-Letter spacing: 3%
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+.accent {
+  color: #000000;
+}
+ul {
+    list-style: none;
+}
+.contacts-link {
+  color: #ACACB0;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196F3;
+}
+.main-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #2F303A;
+}
+button {
+  color: white;
+  background-color: #2196F3;
+  border: 0ch;
+}
+button:hover,
+button:focus,
+button:active {
+        color: #FFFFFF;
+    }
+.filter button {  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer
+  }
+.filter button:hover,
+.filter button:focus,
+.filter button:active {
+  color: #FFFFFF;
+}
+.project-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.activity-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.hidden {
+  display: none;
+}
+.link {
+    color: #212121;
+    text-decoration: none;
+}
+.list .link:hover,
+.list .link:focus {
+  color: #2196F3;
+}
+.link:hover {
+  color: #2196F3;
+}
+.third-level-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
 
-.page-header{
-
+.second-level-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
 }
+.employee-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.position {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* Footer */
+.footer {
+  background-color: #2F303A;
+  font-style: normal;
+}
+.footer-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.footer-logo .accent {
+    color: #FFFFFF;
+}
+
+.geolocation-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ACACB0;
+  color:#FFFFFF
+}
+
+.footer-list .geolocation-link:hover,
+.footer-list .geolocation-link:focus {
+  color: #2196F3;
+}
+
+.footer-list .link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ACACB0;
+}
+
+.footer-list .link:hover,
+.footer-list .link:focus {
+  color: #2196F3;
+}
+
+
+
