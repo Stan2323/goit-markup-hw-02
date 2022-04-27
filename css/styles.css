@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-    --main-color: #212121;
+  --main-color: #212121;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -24,14 +24,22 @@ body {
   color: #000000;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 .contacts-link {
-  color: #ACACB0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #2196F3;
+  color: #2196f3;
+}
+.main {
+  background-color: #2f303a;
 }
 .main-title {
   font-style: normal;
@@ -41,33 +49,35 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
-  background-color: #2F303A;
+  color: #ffffff;
 }
 button {
   color: white;
-  background-color: #2196F3;
+  background-color: #2196f3;
   border: 0ch;
+  cursor: pointer;
 }
 button:hover,
 button:focus,
 button:active {
-        color: #FFFFFF;
-    }
-.filter button {  
+  color: #ffffff;
+}
+.filter button {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
+  background-color: #f5f4fa;
   color: #212121;
-  cursor: pointer
-  }
+  cursor: pointer;
+}
 .filter button:hover,
 .filter button:focus,
 .filter button:active {
-  color: #FFFFFF;
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .project-title {
   font-style: normal;
@@ -89,15 +99,15 @@ button:active {
   display: none;
 }
 .link {
-    color: #212121;
-    text-decoration: none;
+  color: #212121;
+  text-decoration: none;
 }
 .list .link:hover,
 .list .link:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
 .link:hover {
-  color: #2196F3;
+  color: #2196f3;
 }
 .third-level-title {
   font-style: normal;
@@ -134,7 +144,7 @@ button:active {
 }
 /* Footer */
 .footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
   font-style: normal;
 }
 .footer-logo {
@@ -149,7 +159,7 @@ button:active {
 }
 
 .footer-logo .accent {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .geolocation-link {
@@ -158,13 +168,14 @@ button:active {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ACACB0;
-  color:#FFFFFF
+  color: #acacb0;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .footer-list .geolocation-link:hover,
 .footer-list .geolocation-link:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .footer-list .link {
@@ -173,13 +184,10 @@ button:active {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ACACB0;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-list .link:hover,
 .footer-list .link:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
-
-
-
